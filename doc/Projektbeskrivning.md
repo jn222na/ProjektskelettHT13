@@ -1,29 +1,25 @@
-
-# Projektnamn här
+# Målerifirma
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[jn222na](https://github.com/jn222na), [as223jx](https://github.com/as223jx), [mh223ci](https://github.com/mh223ci)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](http://jn222na.github.io/ProjektskelettHT13)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+*Vi kommer arbeta skarpt mot ett måleriföretag, för att vi lär oss på bästa sätt då vi jobbar med en kund. Iden uppkom iom. att Joakim redan varit i kontakt och skapat en hemsida åt företaget men nu med ny kunskap kan vi göra om den till det bättre*
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+*Vi kommer göra allt själva utan några mallar. Vi kommer eventuellt använda färdiga javascript men satsar på att undvika detta*
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+*Vi kommer lägga in ett kontaktformulär*
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
+*Har tidigare jobbat på denna sidan men vi kommer omstrukturera koden för att göra den mer användarvänlig.*
 
 ## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+*.*
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
-
+*https://docs.google.com/spreadsheet/ccc?key=0AquOnQSpFmSPdE5vbkZlVU5fU3Ridjc1bHVkbDFlMFE&usp=drive_web#gid=0*
