@@ -1,6 +1,6 @@
 # Målerifirma
 Projektmedlemmar: 
-[jn222na](https://github.com/jn222na), [as223jx](https://github.com/as223jx), [mh223ci](https://github.com/mh223ci)
+[jn222na](https://github.com/jn222na), [as223jx](https://github.com/as223jx), [mh223c](https://github.com/mh223c)
 
 [Exekverbar version av projektet](http://jn222na.github.io/ProjektskelettHT13)
 
