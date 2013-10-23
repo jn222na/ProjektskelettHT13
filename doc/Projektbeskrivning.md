@@ -1,29 +1,27 @@
 
-# Projektnamn här
+# Målerfirma
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
-
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
+[tstjostudent](https://github.com/jn222na), [xx222yy](https://github.com/as223jx), [yy222xx](https://github.com/mh223c)
 
 [Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+*Vi kommer skapa en hemsida åt ett måleriföretag, anledningen till att vi vill göra detta är för att vi känner att vi kommer lära oss bäst igenom att jobba skarpt emot en kund?*
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+*Allting kommer göras ifrån grunden eventuellt färdiga javascript kommer användas i nödfall*
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+*Kontaktformulär.*
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
+*Joakim har tidigare skapat denna hemsida och satsar på att förändra koden så att den blir mer sökoptimerad anpassad för telefoner, tablets, m.m..*
 
 ## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+*Inget att tillägga*
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+https://c9.io/jn222na/projektskelettht13/workspace/doc/Måleritjolahoj.pdf
 
