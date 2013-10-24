@@ -1,9 +1,9 @@
 
 # Målerfirma
 Projektmedlemmar: 
-[tstjostudent](https://github.com/jn222na), [xx222yy](https://github.com/as223jx), [yy222xx](https://github.com/mh223c)
+[jn222na](https://github.com/jn222na), [as223jx](https://github.com/as223jx), [mh223c](https://github.com/mh223c)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](http://mh223c.github.io/ProjektskelettHT13)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
@@ -24,4 +24,3 @@ Projektmedlemmar:
 
 ## Tidsplanering
 https://c9.io/jn222na/projektskelettht13/workspace/doc/Måleritjolahoj.pdf
-
