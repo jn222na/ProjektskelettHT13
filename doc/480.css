@@ -42,6 +42,7 @@ nav li a:hover{
 }
 
 #aside-left{
+    clear:both;
     margin-bottom:5px;
     margin-top:5px;
     padding:5px;

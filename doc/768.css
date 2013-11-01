@@ -18,10 +18,11 @@ nav li a:hover{
 
 #aside-left{
     width:200px;
+    float:left;
     margin:10px;
 }
 
 #middle article{
-    margin-top:-200px;
+    margin-top:15px;
     margin-left:230px;
 }
