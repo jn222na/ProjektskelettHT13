@@ -19,22 +19,21 @@ header{
 nav{
     width:480px;
     max-width:100%;
-    
 }
 
-nav li
-{
+nav li{
     display:block;
     margin-bottom:5px;
     margin-right:5px;
 }
+
 nav li a{
     display:block;
     text-decoration: none;
 }
+
 nav li a:hover{
     display:block;
-
 }
 
 #middle article{
@@ -48,13 +47,12 @@ nav li a:hover{
     padding:5px;
     max-width:100%;
     background-color:#FFA33B;
-    font-size: 20px;
+    font-size: 15px;
 }
 #aside-left li{
     margin-top:5px;
 }
 footer{
     height:auto;
-    background-color:purple;
-    padding:10px;
+    padding:5px;
 }
