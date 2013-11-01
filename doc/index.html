@@ -1,36 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
     <link href="mall.css" rel="stylesheet" type="text/css"/>
 	<link href="utskrift.css" rel="stylesheet" type="text/css" media="print"/>
     <link href="480.css" rel="stylesheet" media="only screen and (max-width:481px)"  />
-    <link href="768.css" rel="stylesheet" media="only screen and (min-width: 769px) "  />
+    <link href="768.css" rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 760px)"/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
             <title>Företagssida</title>
 </head>
 
 <body>
-    <mainsection>
+    <main>
         <header>
             
 
         </header>
         
             <!--  Meny -->
-            
+
         <nav>
             <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="bilder.html">Bilder</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="sponsorer.html">Sponsorer</a></li>
+                <li><a href="index.html"><img src="bilder/hem.png" alt="Hem"/></a></li>
+                <li><a href="bilder.html"><img src="bilder/bilder.png" alt="Bilder"/></a></li>
+                <li><a href="sponsorer.html"><img src="bilder/sponsorer.png" alt="Sponsorer" /></a></li>
+                <li><a href="historia.html"><img src="bilder/historia.png" alt="Historia" /></a> </li>
             </ul>
         </nav>
         
             <!--  Kontakt  -->  
             
-        <aside-left>
+        <div id="aside-left">
             <article>
                 <h1>
                  Kontakt       
@@ -44,11 +46,11 @@
                     </ul>
                 </section>
             </article>
-        </aside-left>
+        </div><!--Slut aside-left -->
         
         <!-- Bildgalleri -->
         
-        <middle>
+        <div id="middle">
             <article>
                 Innehåll.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et
@@ -75,9 +77,12 @@
                 libero eu laoreet. Praesent vestibulum faucibus lorem ut suscipit.
                 Cras adipiscing elementum mattis. Fusce ut laoreet orci.
             </article>
-        </middle>
+        </div><!--Slut middle -->
         <footer>
+        <ul>
             <li>Skapad av Joakim Nilsson, Alexandra Seppänen och Mathias Holmqvist.</li>
+        </ul>
         </footer>
-    </mainsection>
+    </main>
 </body>
+</html>
