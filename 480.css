@@ -1,0 +1,95 @@
+main
+{
+    width:480px;
+}
+
+nav
+{
+    width:480px;
+    max-width:100%;
+}
+
+nav li a
+{
+    display:inline;
+    float:none;
+    padding:10px;
+    border-radius:6px;
+    padding-right:50px;
+    padding-right:200px;
+    -moz-box-shadow: inset 0 0 5px 5px #888;
+    -webkit-box-shadow: inset 0 0 5px 5px#888;
+    box-shadow: inset 0 0 5px 5px gray;
+    -moz-box-shadow:  0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 10px #888;
+    max-width:100%;
+}
+
+nav li a:hover
+{
+    padding-bottom:0;
+}
+
+/* Ändrar varje länk i menyns inställningar */
+nav li
+{
+    margin-top:20px;
+}
+
+nav li .active
+{
+     padding:3px;
+     padding-right:210px;
+}
+
+nav li .active:hover
+{
+     padding:3px;
+}
+
+footer
+{
+    background-color:#8DA7CC;
+    padding:1px;
+    margin-top:60px;
+    max-width:100%;
+}
+
+
+
+#aside-left
+{
+    float:none;
+    height:180px;
+    margin-top:140px;
+    max-width:100%;
+}
+
+.linje
+{
+    margin-bottom:30px;
+}
+
+nav li a 
+{
+  color: #fff;
+  display: block;
+  padding: 0 5px 0 25px;
+  line-height: 2.6em;
+  border-bottom: 1px solid #2d333d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

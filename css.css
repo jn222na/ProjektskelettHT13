@@ -1,0 +1,120 @@
+body
+{
+    background-image:url('bg.jpg');
+    background-color:#999999;
+    
+}
+
+main
+{
+    width:1300px;
+    background-color:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    -moz-box-shadow: 0 0 20px #000;
+    -webkit-box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #000;
+        max-width:100%;
+}
+
+header
+{
+    height:350px;
+    background-image:url('http://media.aquavitt.se/bilen.jpg');
+    /*background-repeat:no-repeat;*/
+}
+
+nav
+{
+    width:1070px;
+    height:40px;
+    /* /* background-color:green; */ */
+    /*  ?  */
+    margin-top:-16px;
+    margin-left:-40px;
+}
+
+.linje
+{
+    height:20px;
+    background-color:#8DA7CC;
+}
+
+nav li a
+{
+    display:block;
+    margin-right:10px;
+    margin-top:-35px;
+    padding: 10px 10px 10px;
+    padding-top:25px;
+    float:left;
+    background-color:#8DA7CC;
+    border-radius:18px;
+}
+
+nav li a:link
+{
+    font-family:verdana;
+    font-size:12px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+nav li a:visited
+{
+    color:#fff;   
+    
+}
+
+nav li a:hover
+{
+    padding-bottom:17px;
+}
+
+nav li a:active
+{
+    padding-bottom:17px;
+}
+
+nav li .active
+{
+    padding-bottom:17px;
+}
+
+#aside-left
+{
+    width:200px;
+    height:790px;
+    float:right;
+    margin-top:-40px;
+    padding-left:20px;
+    background-color:#8DA7CC;
+}
+
+#aside-left ul
+{
+    padding-left: 0px;
+}
+
+li
+{
+    list-style-type:none;
+}
+
+#middle
+{
+    margin:25px;
+    width:1050px;
+    height:700px;
+    background-color:#fff;
+    max-width:100%;
+}
+
+footer
+{
+    background-color:#8DA7CC;
+    padding:1px;
+}
