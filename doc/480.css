@@ -12,13 +12,13 @@ mainsection{
 }
 
 header{
-    background-image:url('bilder/headernamn.png');
-    height:200px;
+    background-image:url('bilder/headernamn480.png');
+    height:100px;
 }
 
 nav{
+    margin-left:50px;
     width:480px;
-    max-width:100%;
 }
 
 nav li{
@@ -37,7 +37,6 @@ nav li a:hover{
 }
 
 #middle article{
-    background-color:#3BEBFF;
     padding:10px;
 }
 

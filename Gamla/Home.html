@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mikaels</title>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#slider').cycle({
+		fx:'fade',
+			next:   '#next', 
+    		prev:   '#prev' 
+	});	
+});
+
+</script>
+<style type="text/css">
+*{
+	margin: 0px;
+}
+#page {
+	width: 808px; /* 797px*/
+	float: left;
+	position: absolute;
+	padding-left: 450px;
+}
+#header {
+	height: 150px; /* 300px */
+	width: 1500px; /* 1500px */
+	background:url(Bilder/headernamn2.png);
+	background-repeat: no-repeat;
+	margin-top:100px;
+	margin-left:100px;
+
+	
+}
+#container {
+}
+#topContainer {
+	overflow: auto;
+}
+.controller {
+	background-image: url(Bilder/previous.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 52px;
+	height: 320px;
+	float: left;
+}
+#slider {
+	height: 320px; /* 320px */
+	width: 697px; /* 697px */
+	float: left;
+	overflow: hidden;
+}
+#next {
+	background-image: url(Bilder/next.png);
+}
+
+
+.h1 { font-family: arial, verdana, sans-serif; } 
+
+#textruta {
+	height: 10px; /*<!-- 500px -->*/
+	width: 100%; /*700*/
+	margin-top:320px;
+	color:#fff;
+}
+#text{
+	width:100%;
+	height:300px;
+	margin-left:500px;
+	
+}
+
+.textruta {
+	font-size: 30px;
+	
+}
+#left{
+	height:330px; /* 500px */
+	width:25%; /* 400px */
+	float:left;
+	background-image:url(Bilder/kontakt2.png);
+	background-repeat:no-repeat;
+	margin-right:auto;
+	padding-right:400px;
+	
+}
+#pagecon{
+	height:500px;
+	width:100%;
+	float:right;
+}
+#footer{
+	height:70px;
+	width:1500px;
+	background-image:url(Bilder/footer.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#meny{
+	height:100px;
+	width:1500px;
+	background-image:url(Bilder/menyborder.png);
+	background-repeat:no-repeat;
+	margin-left:130px;
+}
+.bilderborder {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left:100px;
+}
+.bilderborderf {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+</style>
+
+
+</head>
+
+<body style="background-image:url('bilder/bg.jpg');background-attachment:fixed;">
+
+<div id="header"></div> <!--Slut header -->
+<div id="meny">
+<a href="Untitled-1.html"><img src="Bilder/hem2.png" alt="Hem" class="bilderborder" /></a>
+<a href="Bildersida/Bilder.html"><img src="Bilder/bilder2.png" alt="Bilder" class="bilderborder" /></a>
+<a href="Sponsorer/Samarbetspartners.html"><img src="Bilder/sponsorer2.png" alt="Sponsorer" class="bilderborder" /></a> 
+<a href="Historia/Historia.html"><img src="Bilder/historia2.png" alt="Historia" class="bilderborder" /></a> 
+
+
+</div> <!-- Slut meny -->
+
+<div id="left"></div> <!-- Slut left -->
+
+
+<div id="page">
+  <div id="topContainer">
+      <div class="controller" id="prev"></div>
+      <div id="slider"><img src="Bilder/B1.jpg" width="697" height="320" alt="B1" /><img src="Bilder/B2.jpg" width="697" height="320" alt="B2" /><img src="Bilder/B3.png" width="697" alt="B3" height="320" /></div>
+    <div class="controller" id="next"></div>
+  </div>
+</div>
+
+<div id="textruta">
+
+</div>
+<div id="text" class="textruta">
+ShuleyeyeyShuleyeyeyShuleyeyeyShuleyeyey
+</div>
+
+<div id="facebook">
+<a href="http://www.facebook.com"><img src="Bilder/fbthumb.png" alt="Facebook" class="bilderborderf" /></a>
+</div>
+<div id="footer"> 
+</div> <!-- Slut footer -->
+</body>
+</html>
