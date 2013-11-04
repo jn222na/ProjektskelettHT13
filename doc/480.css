@@ -1,6 +1,7 @@
 @charset "utf-8";
 * {background-repeat:no-repeat;}
 body{
+    
     background-image:url('bilder/Bg.jpg');
     background-attachment:fixed;
 }
@@ -17,8 +18,13 @@ header{
 }
 
 nav{
+    display: inline;
+    font-size:30px;
+    font-family: "handwriting",Times,Verdana;
+    src: url('handwriting.ttf') format("truetype");
     margin-left:50px;
     width:480px;
+    
 }
 
 nav li{
@@ -41,13 +47,13 @@ nav li a:hover{
 }
 
 #aside-left{
+    font-weight:bold;
+    font-size:30px;
     clear:both;
     margin-bottom:5px;
     margin-top:5px;
     padding:5px;
     max-width:100%;
-    background-color:#FFA33B;
-    font-size: 15px;
 }
 #aside-left li{
     margin-top:5px;
