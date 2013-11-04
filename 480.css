@@ -13,6 +13,7 @@ nav li a
 {
     display:inline;
     float:none;
+    margin:15px;
     padding:10px;
     border-radius:6px;
     padding-right:50px;
@@ -29,6 +30,7 @@ nav li a
 nav li a:hover
 {
     padding-bottom:0;
+    padding-left:3px;
 }
 
 /* Ändrar varje länk i menyns inställningar */
@@ -54,12 +56,19 @@ footer
     padding:1px;
     margin-top:60px;
     max-width:100%;
+    padding-right:20px;
 }
 
-
+#middle
+{
+    margin-top:180px;
+    background-color:#fff;
+    padding-right:20px;
+}
 
 #aside-left
 {
+    display:none;
     float:none;
     height:180px;
     margin-top:140px;
@@ -69,6 +78,7 @@ footer
 .linje
 {
     margin-bottom:30px;
+    background-color:#8DA7CC; 
 }
 
 nav li a 
