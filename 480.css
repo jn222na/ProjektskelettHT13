@@ -13,7 +13,7 @@ nav li a
 {
     display:inline;
     float:none;
-    margin:15px;
+    margin:10px;
     padding:10px;
     border-radius:6px;
     padding-right:50px;
@@ -25,6 +25,11 @@ nav li a
     -webkit-box-shadow: 0 0 5px #888;
     box-shadow: 0 0 10px #888;
     max-width:100%;
+}
+
+#header
+{
+    display:none;
 }
 
 nav li a:hover
@@ -54,7 +59,8 @@ footer
 {
     background-color:#8DA7CC;
     padding:1px;
-    margin-top:60px;
+    margin-top:40px;
+    margin-bottom:20px
     max-width:100%;
     padding-right:20px;
 }
@@ -77,6 +83,7 @@ footer
 
 .linje
 {
+    display:none;
     margin-bottom:30px;
     background-color:#8DA7CC; 
 }
@@ -91,8 +98,27 @@ nav li a
 }
 
 
-
-
+/* Slider */ 
+#sliderContainer{
+    display:none;
+    
+}
+#page {
+    display:none;
+}
+#slider {
+	display:none;
+}
+.controller {
+	display:none;
+}
+#next {
+	display:none;
+}
+#topContainer {
+	display:none;
+}
+woloolo
 
 
 

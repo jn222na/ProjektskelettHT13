@@ -10,10 +10,27 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 
             <title>Företagssida</title>
+                        
+            
+            <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#slider').cycle({
+		fx:'fade',
+			next:   '#next', 
+    		prev:   '#prev' 
+	});	
+});
+
+</script>
 </head>
 
 <body>
     <main>
+    <div id="logo">
+    <img src="http://www.jlkbygg.se/images/content/logo.png" id="logo" alt="logo">
+    </div>
         <header>
         <img src="http://media.aquavitt.se/bilen.jpg" id="header" alt="Header">
         </header>
@@ -37,7 +54,14 @@
         <!-- Bildgalleri -->
         
         <div id="middle">
-                <h1>Innehåll</h1>
+                        <div id="page">
+  <div id="topContainer">
+      <div class="controller" id="prev"></div>
+      <div id="slider"><img src="b1.jpg" width="400" height="320" alt="b1" /><img src="b2.jpg" width="400" height="320" alt="b2" /><img src="b3.png" width="400" alt="B3" height="320" /></div>
+    <div class="controller" id="next"></div>
+  </div>
+</div>
+                <h1>Företaget AB</h1>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et
                 odio eget turpis sollicitudin varius id lobortis lorem. Nulla dui
                 magna, molestie interdum ultricies at, bibendum vitae tortor. Integer
@@ -61,12 +85,9 @@
                 sit amet, consectetur adipiscing elit. Sed vulputate suscipit
                 libero eu laoreet. Praesent vestibulum faucibus lorem ut suscipit.
                 Cras adipiscing elementum mattis. Fusce ut laoreet orci.
-                
-                
-                
-                
         </div><!--Slut middle -->
-        
+
+ 
         <footer>
         <ul>
             <li>Skapad av Joakim Nilsson, Alexandra Seppänen och Mathias Holmqvist.</li>

@@ -1,7 +1,5 @@
 .polaroid-images a
 {
-    
-    
     font-family: "handwriting";
 	display: inline;
 	background: white;
@@ -22,7 +20,8 @@
     position:relative;
 }
 
-.polaroid-images a:hover,.polaroid-images a:focus{
+.polaroid-images a:hover,.polaroid-images a:focus
+{
     -o-transform: scale(1.13); 
 	-webkit-transform: scale(1.13); 
 	-moz-transform: scale(1.13);
