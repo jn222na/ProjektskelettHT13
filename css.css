@@ -12,10 +12,8 @@ main
     margin-right:auto;
     margin-top:20px;
     margin-bottom:20px;
-    /* -moz-box-shadow: 0 0 20px #000;
-    -webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 20px #000; */
     max-width:100%;
+    background-color:#FFF;
 }
 
 #header
@@ -82,25 +80,26 @@ nav li a:visited
 
 nav li a:hover
 {
-    padding-bottom:17px;
+    padding-bottom:19px;
     background-color:#4791FF;
+
 }
 
 nav li a:focus
 {
-    padding-bottom:10px;
-    background-color:#3F7CBA;
+    padding-bottom:19px;
+    
 }
 
 
 nav li a:active
 {
-    padding-bottom:17px;
+    padding-bottom:19px;
 }
 
 nav li .active
 {
-    padding-bottom:17px;
+    padding-bottom:19px;
 }
 
 li
@@ -108,26 +107,37 @@ li
     list-style-type:none;
 }
 
+h1 
+{
+    font-size:2em;
+    font-family: Arial;
+    color: #4791FF;
+}
+
 #middle
 {
-    padding:30px;
-    min-height:350px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    padding-top:5px;
+    min-height:370px;
     background-color:#fff;
-    max-width:100%;
-    -moz-box-shadow: 0 0 20px #000;
-    -webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 20px #000;
+    max-width:460px;
+}
+
+#logo
+{
+    margin-left:10px;
 }
 
 #middlebild
 {
-    padding:30px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
     min-height:600px;
     background-color:#fff;
     max-width:100%;
-    -moz-box-shadow: 0 0 20px #000;
-    -webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 20px #000;
 }
 
 #logo
@@ -135,6 +145,8 @@ li
     margin-top:15px;
     margin-bottom:10px;
     max-width:100%;
+    margin-right: 20px;
+    
 }
 
 #middle2
@@ -151,16 +163,30 @@ li
 
 footer
 {
-    margin-left:120px;
-    margin-top:325px;
+    
+    margin-top:15px;
     padding:1px; max-width:100%;
-    /* background-color:#8DA7CC; */
+    background-color:#2E2E2E;
+    
 }
+
+footer p 
+{
+    color: #B5B5B5;
+    margin-left: 220px;
+}
+
+footer ul 
+{
+    color: #B5B5B5;
+    margin-left: 220px;
+}
+
 
 
 #form {
     
-    border-color: #8DA7CC;
+    border-color: #4791FF;
     border-width: 7px;
     border-style: ridge;
     margin: 10px;
@@ -171,7 +197,7 @@ footer
 
 #forms {
     
-    border-color: #8DA7CC;
+    border-color: #4791FF;
     border-width: 7px;
     border-style: ridge;
     margin: 10px;
@@ -184,21 +210,35 @@ footer
 /* Slider */ 
 #sliderContainer{
     margin-bottom:400px;
-    width:700px;max-width:100%;
+    width:500px;max-width:100%;
     
 }
 #page {
-    margin-top:20px;
-     margin-left:500px;
+    
+        margin-top:75px;
+     margin-left:465px;
 	width: 708px; /* 797px*/
 	float: left;
 	position: absolute;max-width:100%;
+}
+/* Bild galleri med javascript */
+#pagee{
+    max-width:100%;
+	width: 810px;
+	position:absolute;
+	float: left;
+}
+#galleri{
+    height:800px;
 }
 #slider {
 	height: 320px; /* 320px */
 	width: 400px; /* 697px */
 	float: left;
 	overflow: hidden; max-width:100%;
+		-moz-box-shadow: 0 0 20px #000;
+    -webkit-box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #000;
 }
 .controller {
 	background-image: url(previous.png);

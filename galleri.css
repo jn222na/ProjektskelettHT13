@@ -1,6 +1,6 @@
 .polaroid-images a
 {
-    font-family: "handwriting";
+    
 	display: inline;
 	background: white;
 	float: left;
@@ -31,4 +31,14 @@
 	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
     box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+h1 
+{
+    font-family: Arial;
+    color: #4791FF;
+}
+.polaroid-images img{
+    width:200px;
+    max-width:100%;
 }
